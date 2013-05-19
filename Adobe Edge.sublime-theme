@@ -456,7 +456,7 @@
         "layer0.texture": "Theme - Adobe Edge/Adobe Edge/sidebar-bg.png",
         "layer0.opacity": 1.0,
         "layer0.inner_margin": [1, 1, 2, 1],
-        "content_margin": [0, 25, 1, 0]
+        "content_margin": [0, 25, 0, 0]
     },
     // Sidebar tree
     {
@@ -477,10 +477,12 @@
     {
         "class": "tree_row",
         "attributes": ["selected"],
+        "layer0.texture": "Theme - Adobe Edge/Adobe Edge/sidebar-row-selected-with-arrow.png",
+        "layer0.inner_margin": [10, 0],
         "layer0.opacity": 1.0
-        //"layer1.opacity": 1.0,
-        //"layer1.texture": "Theme - Adobe Edge/Adobe Edge/sidebar-row-selected-arrow.png",
-        //"layer1.inner_margin": [8,0]
+ //       "layer1.opacity": 1.0,
+//        "layer1.texture": "Theme - Adobe Edge/Adobe Edge/sidebar-row-selected-with-arrow.png",
+   //     "layer1.inner_margin": [8,0]
     },
     // Sidebar heading
     {
